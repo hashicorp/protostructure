@@ -1,4 +1,4 @@
-module github.com/mitchellh/protostructure
+module github.com/hashicorp/protostructure
 
 go 1.14
 

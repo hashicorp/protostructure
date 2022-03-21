@@ -1,4 +1,4 @@
-# protostructure [![Godoc](https://godoc.org/github.com/mitchellh/protostructure?status.svg)](https://godoc.org/github.com/mitchellh/protostructure)
+# protostructure [![Godoc](https://godoc.org/github.com/hashicorp/protostructure?status.svg)](https://godoc.org/github.com/hashicorp/protostructure)
 
 protostructure is a Go library for encoding and decoding a `struct`
 _type_ over the wire.
@@ -19,12 +19,12 @@ such as JSON.
 Standard `go get`:
 
 ```
-$ go get github.com/mitchellh/protostructure
+$ go get github.com/hashicorp/protostructure
 ```
 
 ## Usage & Example
 
-For usage and examples see the [Godoc](http://godoc.org/github.com/mitchellh/protostructure).
+For usage and examples see the [Godoc](http://godoc.org/github.com/hashicorp/protostructure).
 
 A quick code example is shown below using both the imaginary proto file
 and the Go code that uses it.
