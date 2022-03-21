@@ -19,7 +19,7 @@ import (
 	"reflect"
 )
 
-//go:generate sh -c "protoc ./*.proto --go_out=plugins=grpc:./"
+//go:generate sh -c "protoc ./*.proto --go_out=paths=source_relative,plugins=grpc:./"
 
 // Encode converts a struct to a *Struct which implements proto.Message
 // and can therefore be sent over the wire. Note that only the _structure_
